@@ -1,0 +1,10 @@
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\bin\Debug\Day3.exe.config
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\bin\Debug\Day3.exe
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\bin\Debug\Day3.pdb
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.csproj.AssemblyReference.cache
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.Form1.resources
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.Properties.Resources.resources
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.csproj.GenerateResource.cache
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.exe
+D:\Coding Projects\Csharp\YT_2022iThome\Day3\obj\Debug\Day3.pdb
