@@ -16,5 +16,13 @@ namespace Day3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+// Reference: https://www.youtube.com/watch?v=3TVggKQ4EFs
