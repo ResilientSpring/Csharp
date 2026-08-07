@@ -24,7 +24,10 @@ namespace WindowsFormsApp4
 
             label2.Text = age.ToString();
 
-            if(age >= 18)
+            if (age >= 18)
+                label3.Text = "已成年";
+            else
+                label3.Text = "未成年";
 
         }
     }
