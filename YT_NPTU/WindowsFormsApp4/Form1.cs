@@ -19,7 +19,8 @@ namespace WindowsFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int age = 0;
+            age = int.Parse(textBox1.Text);
         }
     }
 }
