@@ -20,7 +20,11 @@ namespace WindowsFormsApp4
         private void button1_Click(object sender, EventArgs e)
         {
             int age = 0;
-            age = int.Parse(textBox1.Text);
+            age = int.Parse(textBox1.Text);  // [1]
         }
     }
 }
+
+// References:
+// 1. https://chatgpt.com/c/6a75c7de-a524-83ee-9fb2-773b4ebfb678
+
