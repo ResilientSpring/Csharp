@@ -20,6 +20,7 @@ namespace WindowsFormsApp3
         private void button1_Click(object sender, EventArgs e)
         {
             label2.Text = "已送出";
+            label1.Text = label2.Text;
         }
     }
 }
