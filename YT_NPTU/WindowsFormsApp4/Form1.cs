@@ -21,6 +21,8 @@ namespace WindowsFormsApp4
         {
             int age = 0;
             age = int.Parse(textBox1.Text);  // [1]
+
+            label2.Text = age.ToString();
         }
     }
 }
