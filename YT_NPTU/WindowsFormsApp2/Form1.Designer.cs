@@ -82,7 +82,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Adult or not?";
+            this.Text = "成年判斷機";
             this.ResumeLayout(false);
             this.PerformLayout();
 
