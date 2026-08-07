@@ -21,6 +21,7 @@ namespace WindowsFormsApp3
         {
             label2.Text = "已送出";
             label1.Text = label2.Text;
+            textBox1.Text = label1.Text;
         }
     }
 }
