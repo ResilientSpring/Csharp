@@ -23,6 +23,9 @@ namespace WindowsFormsApp4
             age = int.Parse(textBox1.Text);  // [1]
 
             label2.Text = age.ToString();
+
+            if(age >= 18)
+
         }
     }
 }
