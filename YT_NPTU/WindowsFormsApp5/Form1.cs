@@ -29,6 +29,11 @@ namespace WindowsFormsApp5
             else
                 label4.Text = "Incorrect!";
 
+            if (comboBox1.SelectedItem.ToString() == "2")
+                label6.Text = "Correct!";
+            else
+                label6.Text = "Incorrect!";
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
