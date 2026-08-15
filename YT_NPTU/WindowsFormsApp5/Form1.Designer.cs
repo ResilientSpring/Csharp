@@ -147,10 +147,16 @@ namespace WindowsFormsApp5
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
             this.comboBox1.Location = new System.Drawing.Point(63, 153);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 22);
             this.comboBox1.TabIndex = 10;
+            this.comboBox1.Text = "Please select";
             // 
             // Form1
             // 
