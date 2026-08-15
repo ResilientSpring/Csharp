@@ -24,5 +24,10 @@ namespace WindowsFormsApp5
             else
                 label2.Text = "Incorrect!";
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
