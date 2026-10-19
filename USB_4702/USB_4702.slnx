@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Analog_signal_reader/Analog_signal_reader.csproj" />
+  <Project Path="Analog_voltage_reader/Analog_voltage_reader.csproj" Id="ae3d18e8-fa77-43b7-868d-8c25020bb577" />
+</Solution>
