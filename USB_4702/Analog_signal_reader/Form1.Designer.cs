@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            lblVoltage = new Label();
+            SuspendLayout();
+            // 
+            // lblVoltage
+            // 
+            lblVoltage.AutoSize = true;
+            lblVoltage.Location = new Point(65, 66);
+            lblVoltage.Name = "lblVoltage";
+            lblVoltage.Size = new Size(81, 35);
+            lblVoltage.TabIndex = 0;
+            lblVoltage.Text = "label1";
+            lblVoltage.Click += label1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(14F, 35F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblVoltage);
+            Name = "Form1";
             Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblVoltage;
     }
 }
