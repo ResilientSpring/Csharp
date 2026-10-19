@@ -55,7 +55,7 @@
             // 
             // timerRead
             // 
-            timerRead.Tick += timer1_Tick;
+            timerRead.Tick += timerRead_Tick;
             // 
             // Form1
             // 
