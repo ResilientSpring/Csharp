@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblVoltage = new Label();
+            lblState = new Label();
+            timerRead = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // lblVoltage
@@ -36,16 +39,30 @@
             lblVoltage.AutoSize = true;
             lblVoltage.Location = new Point(65, 66);
             lblVoltage.Name = "lblVoltage";
-            lblVoltage.Size = new Size(81, 35);
+            lblVoltage.Size = new Size(154, 35);
             lblVoltage.TabIndex = 0;
-            lblVoltage.Text = "label1";
+            lblVoltage.Text = "Voltage: -- V";
             lblVoltage.Click += label1_Click;
+            // 
+            // lblState
+            // 
+            lblState.AutoSize = true;
+            lblState.Location = new Point(65, 152);
+            lblState.Name = "lblState";
+            lblState.Size = new Size(114, 35);
+            lblState.TabIndex = 1;
+            lblState.Text = "Waiting...";
+            // 
+            // timerRead
+            // 
+            timerRead.Tick += timer1_Tick;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(14F, 35F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblState);
             Controls.Add(lblVoltage);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +73,7 @@
         #endregion
 
         private Label lblVoltage;
+        private Label lblState;
+        private System.Windows.Forms.Timer timerRead;
     }
 }
