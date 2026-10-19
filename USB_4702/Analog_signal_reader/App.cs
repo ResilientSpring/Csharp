@@ -9,9 +9,10 @@ namespace Analog_signal_reader
     {
 
         public static InstantAiCtrl instantAiCtrl = new InstantAiCtrl();
+        public static string USBDeviceName = "";
+        public static bool bGotUSBDevice = false;
 
-
-
+        public static StringBuilder sbLog = new StringBuilder();
 
     }
 
