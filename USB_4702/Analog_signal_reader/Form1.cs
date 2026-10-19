@@ -100,5 +100,18 @@ namespace Analog_signal_reader
             }
 
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            timerRead.Stop();
+
+
+            if(ai != null)
+            {
+                ai.Dispose();
+                ai = null;
+            }
+
+        }
     }
 }
