@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /.vs/slnx.sqlite
 /USB_4702/Analog_signal_reader/Form1.resx
+/.vs/slnx.sqlite
+/YT_2022iThome/Day3/obj/Debug/Day3.csproj.AssemblyReference.cache
+/YT_2022iThome/Day3/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
