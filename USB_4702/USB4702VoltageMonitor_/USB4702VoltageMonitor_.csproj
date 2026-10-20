@@ -8,4 +8,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Automation.BDaq">
+      <HintPath>..\..\..\..\..\Advantech\DAQNavi\Automation.BDaq\1.0.0.0\Automation.BDaq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

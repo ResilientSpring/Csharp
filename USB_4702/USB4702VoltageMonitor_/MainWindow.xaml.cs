@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Automation.BDaq;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace USB4702VoltageMonitor_
 {
@@ -16,6 +18,11 @@ namespace USB4702VoltageMonitor_
     /// </summary>
     public partial class MainWindow : Window
     {
+        private InstantAiCtrl ai;
+        private DispatcherTimer timer;
+
+        private const double Threshold = 2.5;
+
         public MainWindow()
         {
             InitializeComponent();
