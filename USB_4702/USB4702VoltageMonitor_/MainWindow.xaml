@@ -20,7 +20,7 @@
                    FontSize="15"
                    HorizontalAlignment="Center"/>
 
-        <TextBlock Text="VoltageText"
+        <TextBlock x:Name="VoltageText"
                    Text="Voltage: --V"
                    FontSize="20"
                    HorizontalAlignment="Center"
