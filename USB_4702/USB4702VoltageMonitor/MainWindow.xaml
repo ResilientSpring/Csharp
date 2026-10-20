@@ -8,6 +8,7 @@
         Title="USB-4702 Voltage Monitor" 
         Height="300" Width="420"
         WindowStartupLocation="CenterScreen">
+    
     <StackPanel Margin="25" VerticalAlignment="Center">
 
         <TextBlock Text="USB-4702 Analog Input"
