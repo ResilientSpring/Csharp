@@ -8,7 +8,54 @@
         Title="USB-4702 Voltage Monitor" 
         Height="300" Width="420"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <StackPanel Margin="25" VerticalAlignment="Center">
 
-    </Grid>
+        <TextBlock Text="USB-4702 Analog Input"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+        <TextBlock Text="Channel: AI 0"
+                   FontSize="15"
+                   HorizontalAlignment="Center"/>
+
+        <TextBlock Text="VoltageText"
+                   Text="Voltage: --V"
+                   FontSize="20"
+                   HorizontalAlignment="Center"
+                   Margin="0,12"/>
+
+        <TextBlock x:Name="StatusText"
+                   Text="NOT STARTED"
+                   FontSize="30"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,8,0,20"/>
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+
+            <Button x:Name="StartButton"
+                    Content="Start"
+                    Width="100"
+                    Margin="5"
+                    Padding="8"
+                    Click="StartButton_Click"/>
+
+            <Button x:Name="StopButton"
+                    Content="Stop"
+                    Width="100"
+                    Margin="5"
+                    Padding="8"
+                    IsEnabled="False"
+                    Click="StartButton_Click"/>
+        </StackPanel>
+
+        <TextBlock x:Name="ErrorText"
+                   Foreground="Red"
+                   TextWrapping="Wrap"
+                   Margin="0,10,0,0"/>
+
+    </StackPanel>
 </Window>

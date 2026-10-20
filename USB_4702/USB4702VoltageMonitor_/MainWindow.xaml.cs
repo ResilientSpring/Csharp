@@ -20,5 +20,10 @@ namespace USB4702VoltageMonitor_
         {
             InitializeComponent();
         }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
