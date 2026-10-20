@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Analog_signal_reader/Analog_signal_reader.csproj" />
   <Project Path="Analog_voltage_reader/Analog_voltage_reader.csproj" Id="ae3d18e8-fa77-43b7-868d-8c25020bb577" />
+  <Project Path="USB4702VoltageMonitor/USB4702VoltageMonitor.csproj" Id="8e468c63-f3d2-45eb-a4fd-dd0015f73b26" />
   <Project Path="Voltage_reader_(WPFapp)/Voltage_reader_(WPFapp).csproj" Id="e8f5d904-9599-414d-bc60-64d7c892c302" />
 </Solution>
