@@ -26,6 +26,32 @@ namespace USB4702VoltageMonitor_
         public MainWindow()
         {
             InitializeComponent();
+
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(100);
+            timer.Tick += Timer_Tick;
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+
+                double voltage;
+
+                ErrorCode error = ai.Read(0, out voltage);
+
+                if(error != ErrorCode.Success)
+                {
+                    timer.Stop();
+                    StatusText.Text = "READ ERROR";
+
+                }
+
+            } catch(Exception ex)
+            {
+
+            }
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
