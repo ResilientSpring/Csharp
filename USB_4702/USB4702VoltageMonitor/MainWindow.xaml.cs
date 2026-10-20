@@ -33,5 +33,26 @@ namespace USB4702VoltageMonitor
             timer.Tick += Timer_Tick;
 
         }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if(ai == null)
+                {
+                    ai = new InstantAiCtrl();
+
+                    ai.SelectedDevice = new DeviceInformation("USB-4702,BID#0");
+                }
+
+                ErrorText.Text = "";
+                timer.Start();
+
+            }catch(Exception ex)
+            {
+
+            }
+        }
+
     }
 }
