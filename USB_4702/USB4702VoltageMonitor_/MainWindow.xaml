@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:USB4702VoltageMonitor_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="USB-4702 Voltage Monitor" 
+        Height="300" Width="420"
+        WindowStartupLocation="CenterScreen">
     <Grid>
 
     </Grid>
