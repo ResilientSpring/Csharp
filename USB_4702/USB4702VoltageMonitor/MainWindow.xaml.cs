@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+using Automation.BDaq;
 
 namespace USB4702VoltageMonitor
 {
@@ -16,9 +18,20 @@ namespace USB4702VoltageMonitor
     /// </summary>
     public partial class MainWindow : Window
     {
+        private InstantAiCtrl ai;
+        private DispatcherTimer timer;
+
+        private const double Threshold = 2.5;
+
+
         public MainWindow()
         {
             InitializeComponent();
+
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(100);
+            timer.Tick += Timer_Tick;
+
         }
     }
 }
