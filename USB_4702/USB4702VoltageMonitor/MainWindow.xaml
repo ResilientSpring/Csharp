@@ -4,13 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:USB4702VoltageMonitor"
-        Title="USB-4702 Voltage Monitor"
         mc:Ignorable="d"
+        Title="USB-4702 Voltage Monitor" 
         Height="300" Width="420"
         WindowStartupLocation="CenterScreen">
-
-    <StackPanel Margin="25"
-                VerticalAlignment="Center">
+    <StackPanel Margin="25" VerticalAlignment="Center">
 
         <TextBlock Text="USB-4702 Analog Input"
                    FontSize="22"
@@ -23,7 +21,7 @@
                    HorizontalAlignment="Center"/>
 
         <TextBlock x:Name="VoltageText"
-                   Text="Voltage: -- V"
+                   Text="Voltage: --V"
                    FontSize="20"
                    HorizontalAlignment="Center"
                    Margin="0,12"/>
@@ -51,8 +49,7 @@
                     Margin="5"
                     Padding="8"
                     IsEnabled="False"
-                    Click="StopButton_Click"/>
-
+                    Click="StartButton_Click"/>
         </StackPanel>
 
         <TextBlock x:Name="ErrorText"
