@@ -33,7 +33,7 @@ namespace USB4702VoltageMonitor
             timer.Tick += Timer_Tick;
 
         }
-
+        
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             try
